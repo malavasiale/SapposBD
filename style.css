@@ -1,22 +1,46 @@
 body {
     margin: 0;
      padding: 16px;
-     background-image: url('./sfondo3.jpg');
-     background-size: cover;
+     background-color: black;
    }
    
    .birthday-card {
      margin: 40px auto;
      padding: 16px;
-     max-width: 600px;
-     background-color: white;
+     max-width: 80%;
+     height: 85%;
+     background-image: url('./sfondo4.jfif');
+     background-repeat: no-repeat;
+     background-size: cover;
      text-align: center;
+     justify-content: center;
+     align-items: center;
      box-shadow: 0 24px 40px -8px #b41b06;
    }
-   .birthday-card img {
-     width: 100%;
+
+   .blur{
+    background-color:rgba(0, 0, 0, 0.3);
    }
-   
+
+   h1{
+    color: #c23700;
+       font-size: 300%;
+   }
+   h3{
+        color: #c23700;
+       font-size: 250%;
+       line-height: 200%;
+   }
+   .hrtop{
+       border-color: #9a2020;
+       margin-top: 10%;
+       width: 80%;
+   }
+   .hrbottom{
+        border-color: #9a2020;
+        width: 80%;
+        margin-bottom: 10%;
+    }
    .source-link {
      text-align: center;
      color: #311B92;
