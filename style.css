@@ -1,37 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 body {
     margin: 0;
-     padding: 16px;
-     background-color: black;
-   }
-   
-   .birthday-card {
-     margin: 40px auto;
-     padding: 16px;
-     max-width: 80%;
-     height: 85%;
-     background-image: url('./sfondo5.jpg');
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
-     text-align: center;
-     justify-content: center;
-     align-items: center;
-     box-shadow: 0 24px 40px -8px #b41b06;
-   }
+    padding: 16px;
+    background-color: black;
+    background-image: url("./viking.jpg");
+    font-family: 'MedievalSharp', cursive;
+}
 
-   .blur{
-    background-color:rgba(0, 0, 0, 0.4);
-   }
+.birthday-card {
+    border-radius: 25px;
+    margin: 40px auto;
+    padding: 16px;
+    max-width: 80%;
+    height: 85%;
+    background-image: url('./sfondo5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 24px 40px -8px #000000;
+}
+
+.blur {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
    h1{
     color: #c23700;
-       font-size: 300%;
+    font-size: 300%;
+    text-shadow: 5px 5px 4px #000000, 5px 5px 4px #000000;
+
    }
-   h3{
-        color: #c23700;
-       font-size: 250%;
-       line-height: 200%;
-   }
+h3 {
+    text-shadow: 5px 5px 4px #000000, 5px 5px 4px #000000;
+    color: #c23700;
+    font-size: 250%;
+    line-height: 200%;
+}
    .hrtop{
        border-color: #9a2020;
        margin-top: 10%;
