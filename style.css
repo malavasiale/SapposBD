@@ -1,7 +1,8 @@
 body {
     margin: 0;
      padding: 16px;
-     background-color: #512DA8;
+     background-image: url('./sfondo3.jpg');
+     background-size: cover;
    }
    
    .birthday-card {
@@ -10,7 +11,7 @@ body {
      max-width: 600px;
      background-color: white;
      text-align: center;
-     box-shadow: 0 24px 40px -8px #311B92;
+     box-shadow: 0 24px 40px -8px #b41b06;
    }
    .birthday-card img {
      width: 100%;
